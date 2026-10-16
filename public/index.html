@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mailbenachrichtiger</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><div class="wrap logo">Mailbenachrichtiger</div></header>
+
+  <main class="wrap">
+    <section>
+      <h1>Willkommen beim Mailbenachrichtiger</h1>
+      <p class="lead">Gib deinen Namen und deine E-Mail-Adresse ein und du erhältst in wenigen Sekunden eine persönliche Nachricht.</p>
+      <ul>
+        <li>Nachricht direkt in dein Postfach</li>
+        <li>Kein Konto und kein Passwort nötig</li>
+        <li>Deine Daten werden nicht weitergegeben</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Benachrichtigung anfordern</h2>
+      <label for="name">Name</label>
+      <input id="name" placeholder="Max Muster" autocomplete="name">
+      <label for="email">E-Mail-Adresse</label>
+      <input id="email" type="email" placeholder="max@beispiel.ch" autocomplete="email">
+      <button id="senden" type="button">Benachrichtigung anfordern</button>
+      <p id="status" role="status"></p>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Mailbenachrichtiger</footer>
+  <script src="script.js"></script>
+</body>
+</html>
